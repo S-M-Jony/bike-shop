@@ -1,0 +1,148 @@
+body{
+    font-family: 'sans-serif','Open Sans','Lato';
+}
+
+/* menu-section */
+
+.menu-part{
+    background-color: #264653;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+/* banner-part */
+
+.banner{
+    background-color: #264653;
+}
+.logo-btn{
+    margin-left: 15px;
+}
+
+.header-text{
+    color: #fff;
+}
+
+.purchase-btn{
+    padding: 15px 40px;
+    background-color: #E76F51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.modal-body{
+    background-color: #264653;
+}
+
+.modal-title{
+    color: black;
+}
+/* featured bike */
+
+
+.featured-bike h1, .latest-news h1, .clients h1, .question-sec h1 , .gallery h1, .contact-sec h1{
+   font-weight: 700;
+}
+
+.featured-bike p{
+    color:#E76F51;
+    font-weight: 550;
+}
+
+/* latest-bike */
+
+.bike-info p{
+    word-wrap: break-word;
+}
+
+.bike-info{ 
+   margin: 20px; 
+   border: 1px solid #CCCCCC;
+   padding: 15px;
+   /* border-radius: 5%; */
+   text-align: center;
+   background-color: #FFFFFF;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news-btn{
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #E76F51;
+    color: #E76F51;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.news-btn:hover{
+    background-color: #E76F51;;
+    color: white;
+}
+
+/* clients */
+
+.clients i{
+   color: #E77C40;
+}
+
+.clients span , .question-sec span ,.gallery span, .contact-sec span {
+    color: #E76F51;
+}
+
+.clients-card{
+    text-align: center;
+    padding: 20px;
+}
+
+.clients-card img{
+    margin: 0 auto;
+}
+
+.client-name{
+    color: #23A6F0;
+    font-weight: 550;
+}
+
+.client-profession{
+    color: #191b22;
+    font-weight: 550;
+}
+
+
+/* question-sec */
+
+.accordion-button h4{
+    font-weight: 550;
+}
+
+/* gallery-sec */
+
+.gallery img {
+    cursor: pointer;
+}
+
+/* footer-sec */
+.footer-sec{
+    background-color: #0B0D17;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-sec a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* responsive */
+
+@media only screen and (max-width:688px){
+    .menu-part{
+        display: none;
+    }
+    
+}
